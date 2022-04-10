@@ -28,7 +28,7 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Edureka11Assign {
+public class ClickStreamAnalysis {
     private static final String regPattern = "^(\\S+) (\\S+) (\\S+) (\\[\\d{2}\\/(\\S+)\\/\\d{4}\\:\\d{2}\\:\\d{2}\\:\\d{2} \\+\\d{4}\\]) (\\\"(\\S+)+) \\/(\\S+)(\\S+)\\s*(\\S+)?\\s*\\\" (\\d{3}) (\\S+) (\\S+) (.*)";
     private static final String date = "(\\[\\d{2}\\/(\\S+)\\/\\d{4}\\:\\d{2}\\:\\d{2}\\:\\d{2}  \\d{4}\\])";
     static SparkConf sparkConf = new SparkConf ( )
