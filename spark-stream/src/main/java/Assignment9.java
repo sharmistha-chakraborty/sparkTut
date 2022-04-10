@@ -11,7 +11,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 import java.io.IOException;
 
-public class Assignment9 {
+public class MapReduceExample {
 
      static class EmployeeMapper extends Mapper < LongWritable, Text,IntWritable,Text>
     {
